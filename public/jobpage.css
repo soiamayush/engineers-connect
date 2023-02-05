@@ -1,0 +1,25 @@
+ 
+  label {
+    cursor: pointer;
+  }
+  
+  input {
+    position: absolute;
+    transform: scale(0);
+  }
+  
+  .checkbox {
+    display: block;
+    width: 20px;
+    height: 20px;
+    border: 2px solid #000000;
+    transition: all 0.35s;
+  }
+  
+  input:checked ~ .checkbox {
+    transform: rotate(45deg);
+    width: 10px;
+    border-color: #8f44fd;
+    border-top-color: transparent;
+    border-left-color: transparent;
+  }
