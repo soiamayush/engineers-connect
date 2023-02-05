@@ -14,39 +14,39 @@
     <title>Job page</title>
   </head>
   <body>
-    <!-- header -->
-    <div class="bg-blue-600 w-full flex flex-row justify-between">
-      <a href="https://engineersconnect.com/" class="">
-        <img
-          src="./assets/ec-logo-white-new-3.png"
-          class="sm:w-60 w-40 mx-8 my-4 cursor-pointer"
-        />
-      </a>
-      <div class="sm:w-32 mx-8 my-4 flex flex-row gap-x-4">
+   <!-- header -->
+  <div class="bg-blue-600  w-full flex flex-row justify-between gap-x-6">
+    <a href="https://engineersconnect.com/" class="">
+        <img src="./assets/ec-logo-white-new-3.png" class="w-40 mx-8 my-8 cursor-pointer" />
+    </a>
+    <div class="sm:w-32 mx-8 my-4 flex flex-row gap-x-4">
         <div class="flex flex-col text-white cursor-pointer">
-          <span class="material-symbols-outlined m-auto sm:w-8"> house </span>
-          <div class="">Home</div>
+        <span class="material-symbols-outlined m-auto">
+            house
+            </span>
+            <div class="">Home</div>
         </div>
 
         <div class="flex flex-col text-white cursor-pointer">
-          <span class="material-symbols-outlined m-auto sm:w-8">
-            business_center
-          </span>
-          <div class="align-center">Placement</div>
-        </div>
-      </div>
+            <span class="material-symbols-outlined m-auto">
+                business_center
+                </span>
+                <div class="align-center">Placement</div>
+                </div>
     </div>
-
+  </div>
     <!-- view -->
     <div
-      class="w-11/12 rounded-xl m-auto bg-slate-200 my-12 px-8 py-6 flex flex-row gap-x-8 justify-between"
+      class="w-11/12 rounded-xl m-auto bg-slate-200 my-12 px-8 py-6 flex flex-col gap-y-8 lg:flex-row gap-x-8 justify-between"
     >
-      <div class="w-2/3">
-        <div class="text-xl font-semibold hover:underline py-2">
+      <div class="w-4/5 m-auto">
+        <div class="text-md lg:text-xl w-4/5 m-auto text-center font-semibold hover:underline py-2">
           Dot NET Developer
         </div>
-        <div class="text-md">at web mobril staffing solution</div>
-        <div class="text-md">Bengaluru, Karnataka</div>
+        <div class="text-sm lg:text-md w-11/12 m-auto text-center">at web mobril staffing solution</div>
+        <div class="text-sm lg:text-md w-4/5 m-auto text-center">Bengaluru, Karnataka</div>
+        
+        <div class="w-11/12 m-auto text-center">
         <span
           class="bg-slate-100 text-slate-500 text-xs font-medium mr-2 px-2.5 py-0.5 rounded"
           >₹80,000 - ₹1,00,000 a month</span
@@ -58,6 +58,7 @@
           class="bg-slate-100 text-slate-500 text-xs font-medium mr-2 px-2.5 py-0.5 rounded"
           >Day shift</span
         >
+      </div>
         <div class="my-4">
           <div class="text-sm font-bold">Job description</div>
           <div class="text-xs">
@@ -79,13 +80,13 @@
           >Call Employer</span
         >
         <ul class="list-disc mx-4 my-2">
-          <li class="disc text-sm">Total work : 8 years (Required)</li>
+          <li class="disc text-sm">Total work : 8 hours (Required)</li>
         </ul>
         <div class="text-xs text-black-200 m-2">Posted 30 days ago.</div>
 
-        <div class="flex flex-row gap-x-4">
+        <div class="flex flex-col lg:flex-row gap-x-4 gap-y-4">
           <button
-            class="bg-transparent hover:bg-blue-500 text-blue-700 font-semibold hover:text-white py-2 px-4 border border-blue-500 hover:border-transparent rounded"
+            class="bg-transparent hover:bg-blue-500 text-blue-700 font-semibold hover:text-white py-2 px-4 border border-blue-500 hover:border-transparent rounded text-md"
           >
             Apply</button
           ><button
@@ -103,14 +104,14 @@
           </div>
         </div>
       </div>
-      <div class="w-1/3 flex flex-col">
+      <div class="lg:w-1/2 w-10/12 m-auto flex flex-col">
         <img
-          class="h-auto rounded-xl"
+          class="h-auto rounded-xl w-full m-auto"
           src="./assets//fotis-fotopoulos-6sAl6aQ4OWI-unsplash.jpg"
           alt="image description"
         />
 
-        <div class="text-xs font-semibold my-4 leading-8">
+        <div class="text-xs font-semibold my-4 leading-8 w-full m-auto">
           Desired skills :
           <span
             class="bg-blue-300 text-slate-500 text-xs font-medium mr-2 px-2.5 py-0.5 rounded"
@@ -137,68 +138,43 @@
       </div>
     </div>
 
-    <!-- footer -->
-    <div class="flex gap-x-12 bg-slate-100 w-full border py-12">
-      <div class="flex flex-col">
-        <img
-          src="./assets//ec-logo-white-new-3.png"
-          class="bg-blue-500 rounded sm:w-60 w-40 mx-8 my-4 cursor-pointer"
-        />
-        <div class="flex flex-col">
-          <div class="text-xl mx-8 my-4">Connect with us</div>
-          <div class="flex"></div>
+
+<!-- footer -->
+<div class="flex flex-col justify-between lg:flex-row bg-slate-100 w-full border py-12">
+  <div class="flex flex-col w-60 m-auto pr-6">
+    <img src="./assets//ec-logo-white-new-3.png" class="bg-blue-500 rounded sm:w-60 w-40 mx-8 my-4 cursor-pointer"/>
+    <div class="flex flex-col">
+        <div class="text-xl mx-8 my-4">Connect with us</div>
+        <div class="flex">
+
         </div>
-      </div>
-
-      <div class="flex flex-col gap-y-2">
-        <span class="cursor-pointer text-slate-600 hover:text-blue-500 text-md"
-          >About Us</span
-        >
-        <span class="cursor-pointer text-slate-600 hover:text-blue-500 text-md"
-          >Careers</span
-        >
-        <span class="cursor-pointer text-slate-600 hover:text-blue-500 text-md"
-          >Employer home</span
-        >
-        <span class="cursor-pointer text-slate-600 hover:text-blue-500 text-md"
-          >Sitemap</span
-        >
-      </div>
-      <div class="flex flex-col gap-y-2">
-        <span class="cursor-pointer text-slate-600 hover:text-blue-500 text-md"
-          >Help cemter</span
-        >
-        <span class="cursor-pointer text-slate-600 hover:text-blue-500 text-md"
-          >Summons/Notices</span
-        >
-        <span class="cursor-pointer text-slate-600 hover:text-blue-500 text-md"
-          >Grievances</span
-        >
-        <span class="cursor-pointer text-slate-600 hover:text-blue-500 text-md"
-          >Report issue</span
-        >
-      </div>
-      <div class="flex flex-col gap-y-2">
-        <span class="cursor-pointer text-slate-600 hover:text-blue-500 text-md"
-          >Privacy policy</span
-        >
-        <span class="cursor-pointer text-slate-600 hover:text-blue-500 text-md"
-          >Terms & conditions</span
-        >
-        <span class="cursor-pointer text-slate-600 hover:text-blue-500 text-md"
-          >Fraud Alert</span
-        >
-        <span class="cursor-pointer text-slate-600 hover:text-blue-500 text-md"
-          >Trust & safety</span
-        >
-      </div>
-
-      <div
-        class="text-slate-400 text-sm w-1/3 m-auto hover:underline flex text-right mx-2 my-4"
-      >
-        All trademarks are the property of their respective owners All rights
-        reserved © 2023 Engineers connect (India) Ltd.
-      </div>
     </div>
+  </div>
+
+  <div class="flex flex-row w-auto m-auto">
+  <div class="flex flex-col gap-y-2 mx-4">
+    <span class="cursor-pointer text-slate-600 hover:text-blue-500 sm:text-md text-sm">About Us</span>
+    <span class="cursor-pointer text-slate-600 hover:text-blue-500 sm:text-md text-sm">Careers</span>
+    <span class="cursor-pointer text-slate-600 hover:text-blue-500 sm:text-md text-sm">Employer home</span>
+    <span class="cursor-pointer text-slate-600 hover:text-blue-500 sm:text-md text-sm">Sitemap</span>
+  </div>
+  <div class="flex flex-col gap-y-2 mx-4">
+    <span class="cursor-pointer text-slate-600 hover:text-blue-500 sm:text-md text-sm">Help cemter</span>
+    <span class="cursor-pointer text-slate-600 hover:text-blue-500 sm:text-md text-sm">Summons/Notices</span>
+    <span class="cursor-pointer text-slate-600 hover:text-blue-500 sm:text-md text-sm">Grievances</span>
+    <span class="cursor-pointer text-slate-600 hover:text-blue-500 sm:text-md text-sm">Report issue</span>
+  </div>
+  <div class="flex flex-col gap-y-2 mx-4">
+    <span class="cursor-pointer text-slate-600 hover:text-blue-500 sm:text-md text-sm">Privacy policy</span>
+    <span class="cursor-pointer text-slate-600 hover:text-blue-500 sm:text-md text-sm">Terms & conditions</span>
+    <span class="cursor-pointer text-slate-600 hover:text-blue-500 sm:text-md text-sm">Fraud Alert</span>
+    <span class="cursor-pointer text-slate-600 hover:text-blue-500 sm:text-md text-sm">Trust & safety</span>
+  </div>
+</div>
+
+  <div class="text-slate-400 text-sm lg:w-1/3 w-2/3 hover:underline flex text-center m-auto lg:text-right  my-4">All trademarks are the property of their respective owners
+    All rights reserved © 2023 Engineers connect (India) Ltd.</div>
+</div>
+
   </body>
 </html>
